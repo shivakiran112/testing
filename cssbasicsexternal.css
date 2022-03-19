@@ -1,0 +1,44 @@
+body
+{
+color:red;
+/* background-color: blue; */
+ background-image: url("C:/Users/shivakiran/OneDrive/Desktop/shiva.png"); 
+background-repeat:no-repeat;
+background-position: 100px 200px;
+background-attachment: fixed;   /*image fixed*/
+/*-------------------------------------------------------*/
+direction:ltr;
+letter-spacing: 2px;
+word-spacing: 1px;
+text-indent: 4px;
+text-align:justify;
+text-decoration: underline;
+text-transform: capitalize;
+white-space: inherit;
+/*-------------------------------------------------------*/
+
+
+}
+p{
+    color: red;
+    background-color: black;
+    
+}
+a:link
+{
+    color: brown;
+}
+a:active
+{
+    color: aquamarine;
+}
+a:visited
+{
+    color: yellowgreen;
+}
+a:hover
+{
+    color: blueviolet;
+    font-size: larger;
+    background-color: rgb(43, 226, 52);
+}

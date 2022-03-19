@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<hea>, initial-scale=1.0">
+    <title>project</title>
+    <style>
+        div{
+            border: 2px solid;
+        }
+    </style>
+    
+</head>
+<body>
+<form action="regsistrationsucess.html">
+    <div>
+        <center><h1>Employee Registration Form</h1></center>
+        <hr>
+        <label>Firstname:</label>
+		<input type="text" name="Firstname" placeholder="Firstname" size="10" required><br><br>
+        <label>Middlename:</label>
+		<input type="text" name="middlename" placeholder="Middlename" size="10" required><br><br>
+		<label>Lastname:</label>
+		<input type="text" name="lastname" placeholder="Lastname" size="10" required>
+    </div><br>
+    <!--------------------------------------------------------------------------------------->
+    <div>
+        <label> Department</label>
+        <select>
+            <option value="Course">Department</option>
+            <option value="BCA">Management</option>
+            <option value="BBA">Human Resource</option>
+            <option value="B.Tech">Customer Support</option>
+            <option value="MBA">Development</option>
+        </select>
+    </div><br>
+    <!--------------------------------------------------------------------------------------------->
+    <div>
+        <label>Gender:</label><br>
+        <input type="radio" name="Gender" value="Male" checked>Male<br>
+        <input type="radio" name="Gender" value="Female" checked>Female<br>
+        <input type="radio" name="Gender" value="Other" checked>other<br>
+    </div><br>
+     <!--------------------------------------------------------------------------------------------->
+     <label>
+        Phone :
+    </label>
+    <input type="text" name="country code" placeholder=" country Code" value="+91" size="2">
+    <input type="tel" name="phone" size="25" pattern="[0-9]{4}-[0-9]{6}" placeholder="1234-567890" required>
+    <br><br>
+    <!---------------------------------------------------------------------------------------------->
+    Current Address:
+ <textarea cols="80" rows="5" placeholder="Current Address" value=" address" required></textarea><br><br>
+ <!-------------------------------------------------------------------------------------------------->
+ <label for="myfile">Drop your Resume:</label>
+ <input type="file"  id="myfile" name="myfile"><br><br>
+ <!--------------------------------------------------------------------------------------------------->
+ <label for="email"><b>Email</b></label>
+ <input type="text" placeholder=" Enter Email" name="email" required><br><br>
+ <!--------------------------------------------------------------------------------------------------->
+ <label for="psw"><b>Password</b></label>
+ <input type="password" placeholder=" Enter Password" name="psw" required><br><br>
+ <!--------------------------------------------------------------------------------------------------->
+ <label for="psw-repeat"><b> Re-type Password</b></label>
+ <input type="password" placeholder="Retype Password" name="psw-repeat" required><br><br>
+  <!------------------------------------------------------------------------------------------------->
+  <button type="submit" class="Registerbtn">Register</button><!-- after you click register buttion it will re direct you to regsitrationsucess.html-->
+</form>
+</body>
+</html>
